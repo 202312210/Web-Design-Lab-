@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+    margin-top: 10px;
+}
+
+#logo-div{
+    width: 50%;
+    min-height: 60px;
+    background-color: red;
+    padding-left: 2%;
+    line-height: 50px;
+    float: left;
+}
+
+#nav-div{
+    width: 50%;
+    min-height: 60px;
+    background-color: green;
+    padding-right: 2%;
+    float: right;
+    text-align: left;
+    line-height: 50px; 
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+#headerbanner-div{
+    margin-bottom: 10px;
+}
+
+#textarea-div{
+    width: 100%;
+    min-height: 90px;
+    background-color: yellow;
+    text-align: center;
+    line-height: 15px; 
+    margin-bottom: 10px;
+    padding: 1.5%;
+}
+
+#main-div{
+    width: 100%;
+    
+
+}
+
+#top-div{
+    width: 100%;
+}
+
+#main-div .box{
+    width: 30%;
+    min-height: 400px;
+    background-color: lightgray;
+    float: left;
+}
+
+#main-div .box:nth-child(2){
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+#footer-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: blue;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#footer-div .footer-text{
+    padding-top: .5%;
+}
+
+#wrapper-div{
+    width: 80%; 
+    margin:auto;
+
+}
+
+#img-div{
+    width:45px; 
+    height:30px;
+}
